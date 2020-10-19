@@ -14,7 +14,7 @@
     android:background="?attr/selectableItemBackgroundBorderless"
     android:theme="@style/RippleStyle">
 
-    <com.dm.material.dashboard.candybar.utils.views.HeaderView
+    <cn.hlendman.iconpack.utils.views.HeaderView
         android:id="@+id/icon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
