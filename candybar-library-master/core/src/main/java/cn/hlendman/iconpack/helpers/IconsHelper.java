@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,12 +16,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.fragments.dialog.IconPreviewFragment;
-import cn.hlendman.iconpack.items.Icon;
-import cn.hlendman.iconpack.utils.AlphanumComparator;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.fragments.dialog.IconPreviewFragment;
+import com.dm.material.dashboard.candybar.items.Icon;
+import com.dm.material.dashboard.candybar.utils.AlphanumComparator;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.nostra13.universalimageloader.core.ImageLoader;
 

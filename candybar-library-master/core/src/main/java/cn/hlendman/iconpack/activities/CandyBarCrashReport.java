@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.activities;
+package com.dm.material.dashboard.candybar.activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,9 +10,9 @@ import com.afollestad.materialdialogs.MaterialDialog;
 
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.DeviceHelper;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.helpers.ReportBugsHelper;
+import com.dm.material.dashboard.candybar.helpers.DeviceHelper;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.helpers.ReportBugsHelper;
 
 import java.io.File;
 

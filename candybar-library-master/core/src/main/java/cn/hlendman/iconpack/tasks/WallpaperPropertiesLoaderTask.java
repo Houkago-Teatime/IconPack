@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.tasks;
+package com.dm.material.dashboard.candybar.tasks;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -8,8 +8,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.items.Wallpaper;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageSize;

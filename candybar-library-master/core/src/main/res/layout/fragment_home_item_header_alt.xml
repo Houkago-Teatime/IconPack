@@ -11,7 +11,7 @@
     android:layout_marginStart="@dimen/content_padding_reverse"
     android:orientation="vertical">
 
-    <cn.hlendman.iconpack.utils.views.HeaderView
+    <com.dm.material.dashboard.candybar.utils.views.HeaderView
         android:id="@+id/header_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

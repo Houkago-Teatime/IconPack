@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -16,8 +16,8 @@ import android.webkit.URLUtil;
 
 import com.danimahardhika.android.helpers.core.WindowHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.items.Wallpaper;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.nostra13.universalimageloader.core.assist.ImageSize;
 import java.io.File;
 

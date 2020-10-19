@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
@@ -35,24 +35,27 @@ import com.danimahardhika.android.helpers.core.DrawableHelper;
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.danimahardhika.android.helpers.core.ViewHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.adapters.RequestAdapter;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.fragments.dialog.IntentChooserFragment;
-import cn.hlendman.iconpack.helpers.IconsHelper;
-import cn.hlendman.iconpack.helpers.RequestHelper;
-import cn.hlendman.iconpack.helpers.TapIntroHelper;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.InAppBillingProcessor;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.adapters.RequestAdapter;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.fragments.dialog.IntentChooserFragment;
+import com.dm.material.dashboard.candybar.helpers.IconsHelper;
+import com.dm.material.dashboard.candybar.helpers.RequestHelper;
+import com.dm.material.dashboard.candybar.helpers.TapIntroHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.InAppBillingProcessor;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.InAppBillingListener;
+import com.dm.material.dashboard.candybar.utils.listeners.InAppBillingListener;
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.dm.material.dashboard.candybar.helpers.DrawableHelper.getHighQualityIcon;
+import static com.dm.material.dashboard.candybar.helpers.ViewHelper.setFastScrollColor;
 
 /*
  * CandyBar - Material Dashboard
@@ -130,7 +133,7 @@ public class RequestFragment extends Fragment implements View.OnClickListener {
                 StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mManager);
 
-        cn.hlendman.iconpack.helpers.ViewHelper.setFastScrollColor(mFastScroll);
+        setFastScrollColor(mFastScroll);
         mFastScroll.attachRecyclerView(mRecyclerView);
 
         mAsyncTask = new MissingAppsLoader().execute();
@@ -404,7 +407,7 @@ public class RequestFragment extends Fragment implements View.OnClickListener {
                     List<String> files = new ArrayList<>();
 
                     for (Request request : requests) {
-                        Drawable drawable = cn.hlendman.iconpack.helpers.DrawableHelper.getHighQualityIcon(getActivity(), request.getPackageName());
+                        Drawable drawable = getHighQualityIcon(getActivity(), request.getPackageName());
                         String icon = IconsHelper.saveIcon(files, directory, drawable, request.getName());
                         if (icon != null) files.add(icon);
                     }

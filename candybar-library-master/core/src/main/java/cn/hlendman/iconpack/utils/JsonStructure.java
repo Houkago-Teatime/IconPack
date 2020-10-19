@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.utils;
+package com.dm.material.dashboard.candybar.utils;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

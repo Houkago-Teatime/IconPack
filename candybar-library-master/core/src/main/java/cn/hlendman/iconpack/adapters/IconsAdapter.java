@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,10 +12,10 @@ import android.widget.TextView;
 
 import com.danimahardhika.android.helpers.core.SoftKeyboardHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.IconsHelper;
-import cn.hlendman.iconpack.helpers.IntentHelper;
-import cn.hlendman.iconpack.items.Icon;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.helpers.IconsHelper;
+import com.dm.material.dashboard.candybar.helpers.IntentHelper;
+import com.dm.material.dashboard.candybar.items.Icon;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageSize;

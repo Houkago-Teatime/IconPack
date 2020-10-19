@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.applications;
+package com.dm.material.dashboard.candybar.applications;
 
 import android.app.Application;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarCrashReport;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.ImageConfig;
-import cn.hlendman.iconpack.utils.JsonStructure;
+import com.dm.material.dashboard.candybar.activities.CandyBarCrashReport;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.utils.JsonStructure;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.nostra13.universalimageloader.core.ImageLoader;
 

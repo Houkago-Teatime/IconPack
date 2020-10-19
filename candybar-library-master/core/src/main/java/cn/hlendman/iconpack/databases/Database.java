@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.databases;
+package com.dm.material.dashboard.candybar.databases;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -12,10 +12,10 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.danimahardhika.android.helpers.core.TimeHelper;
-import cn.hlendman.iconpack.helpers.JsonHelper;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.items.Wallpaper;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.helpers.JsonHelper;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.nostra13.universalimageloader.core.assist.ImageSize;
 

@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -7,7 +7,7 @@ import android.support.v7.graphics.drawable.DrawerArrowDrawable;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
 
 import static com.danimahardhika.android.helpers.core.DrawableHelper.get;
 

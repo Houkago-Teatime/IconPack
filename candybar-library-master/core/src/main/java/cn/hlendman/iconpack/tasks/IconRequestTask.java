@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.tasks;
+package com.dm.material.dashboard.candybar.tasks;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,14 +12,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.helpers.RequestHelper;
-import cn.hlendman.iconpack.items.Request;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.helpers.RequestHelper;
+import com.dm.material.dashboard.candybar.items.Request;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.Extras;
-import cn.hlendman.iconpack.utils.listeners.HomeListener;
+import com.dm.material.dashboard.candybar.utils.Extras;
+import com.dm.material.dashboard.candybar.utils.listeners.HomeListener;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

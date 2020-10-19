@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:background="?attr/colorPrimary">
 
-    <cn.hlendman.iconpack.utils.views.HeaderView
+    <com.dm.material.dashboard.candybar.utils.views.HeaderView
         android:id="@+id/header_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

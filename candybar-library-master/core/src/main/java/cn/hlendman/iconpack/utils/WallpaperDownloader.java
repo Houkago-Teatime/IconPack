@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.utils;
+package com.dm.material.dashboard.candybar.utils;
 
 import android.app.DownloadManager;
 import android.content.Context;
@@ -14,9 +14,9 @@ import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.danimahardhika.cafebar.CafeBar;
 import com.danimahardhika.cafebar.CafeBarTheme;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.helpers.WallpaperHelper;
-import cn.hlendman.iconpack.items.Wallpaper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
 
 import java.io.File;
 

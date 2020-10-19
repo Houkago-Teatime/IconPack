@@ -1,14 +1,14 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.items.Wallpaper;
-import cn.hlendman.iconpack.utils.JsonStructure;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
+import com.dm.material.dashboard.candybar.utils.JsonStructure;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.io.BufferedInputStream;

@@ -33,19 +33,19 @@
     <application>
         <meta-data android:name="android.max_aspect" android:value="2.1" />
 
-        <activity android:name="cn.hlendman.iconpack.activities.CandyBarCrashReport"
+        <activity android:name=".activities.CandyBarCrashReport"
             android:launchMode="singleInstance"
             android:noHistory="true"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
 
-        <activity android:name="cn.hlendman.iconpack.activities.CandyBarWallpaperActivity"
+        <activity android:name=".activities.CandyBarWallpaperActivity"
             android:launchMode="singleTop"
             android:theme="@style/WallpaperTheme"
             android:configChanges="orientation|keyboardHidden|screenSize"/>
 
-        <service android:name="cn.hlendman.iconpack.services.CandyBarWallpapersService" />
+        <service android:name=".services.CandyBarWallpapersService" />
 
-        <service android:name="cn.hlendman.iconpack.services.CandyBarService"
+        <service android:name=".services.CandyBarService"
             android:stopWithTask="false"/>
     </application>
 

@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.activities;
+package com.dm.material.dashboard.candybar.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,10 +19,10 @@ import android.widget.Toast;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.callbacks.MuzeiCallback;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.helpers.WallpaperHelper;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.activities.callbacks.MuzeiCallback;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;

@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.receivers;
+package com.dm.material.dashboard.candybar.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.WallpapersListener;
+import com.dm.material.dashboard.candybar.utils.listeners.WallpapersListener;
 
 /*
  * CandyBar - Material Dashboard

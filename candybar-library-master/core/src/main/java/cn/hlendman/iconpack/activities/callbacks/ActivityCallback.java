@@ -1,8 +1,8 @@
-package cn.hlendman.iconpack.activities.callbacks;
+package com.dm.material.dashboard.candybar.activities.callbacks;
 
 import android.support.annotation.NonNull;
 
-import cn.hlendman.iconpack.activities.configurations.ActivityConfiguration;
+import com.dm.material.dashboard.candybar.activities.configurations.ActivityConfiguration;
 
 /*
  * CandyBar - Material Dashboard
@@ -24,6 +24,5 @@ import cn.hlendman.iconpack.activities.configurations.ActivityConfiguration;
 
 public interface ActivityCallback {
 
-    @NonNull
-    ActivityConfiguration onInit();
+    @NonNull ActivityConfiguration onInit();
 }

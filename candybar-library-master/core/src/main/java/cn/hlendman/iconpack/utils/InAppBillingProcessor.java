@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.utils;
+package com.dm.material.dashboard.candybar.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,10 +7,10 @@ import com.anjlab.android.iab.v3.BillingProcessor;
 import com.anjlab.android.iab.v3.Constants;
 import com.anjlab.android.iab.v3.TransactionDetails;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.items.InAppBilling;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.listeners.InAppBillingListener;
-import cn.hlendman.iconpack.utils.listeners.RequestListener;
+import com.dm.material.dashboard.candybar.items.InAppBilling;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.listeners.InAppBillingListener;
+import com.dm.material.dashboard.candybar.utils.listeners.RequestListener;
 
 import java.lang.ref.WeakReference;
 

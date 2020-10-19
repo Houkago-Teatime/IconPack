@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.utils.views;
+package com.dm.material.dashboard.candybar.utils.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;

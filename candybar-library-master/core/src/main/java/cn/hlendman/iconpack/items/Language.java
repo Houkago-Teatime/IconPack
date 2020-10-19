@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.items;
+package com.dm.material.dashboard.candybar.items;
 
 import java.util.Locale;
 
