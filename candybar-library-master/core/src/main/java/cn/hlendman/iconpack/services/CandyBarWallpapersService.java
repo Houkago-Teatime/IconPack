@@ -1,14 +1,14 @@
-package cn.hlendman.iconpack.services;
+package com.dm.material.dashboard.candybar.services;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.JsonHelper;
-import cn.hlendman.iconpack.helpers.WallpaperHelper;
-import cn.hlendman.iconpack.items.Wallpaper;
-import cn.hlendman.iconpack.receivers.CandyBarBroadcastReceiver;
+import com.dm.material.dashboard.candybar.helpers.JsonHelper;
+import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
+import com.dm.material.dashboard.candybar.receivers.CandyBarBroadcastReceiver;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.io.InputStream;

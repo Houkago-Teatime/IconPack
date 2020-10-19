@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.items.FAQs;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.items.FAQs;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 
 import java.util.ArrayList;
 import java.util.List;

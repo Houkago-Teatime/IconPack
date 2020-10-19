@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -18,11 +18,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.LauncherAdapter;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.items.Icon;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.AlphanumComparator;
+import com.dm.material.dashboard.candybar.adapters.LauncherAdapter;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.items.Icon;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.AlphanumComparator;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.util.ArrayList;

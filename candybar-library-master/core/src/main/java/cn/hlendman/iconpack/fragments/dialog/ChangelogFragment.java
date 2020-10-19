@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments.dialog;
+package com.dm.material.dashboard.candybar.fragments.dialog;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.ChangelogAdapter;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.utils.listeners.HomeListener;
+import com.dm.material.dashboard.candybar.adapters.ChangelogAdapter;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.utils.listeners.HomeListener;
 
 /*
  * CandyBar - Material Dashboard

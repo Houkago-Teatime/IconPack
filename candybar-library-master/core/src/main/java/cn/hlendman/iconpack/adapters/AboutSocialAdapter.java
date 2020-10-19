@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.helpers.UrlHelper;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.helpers.UrlHelper;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 /*

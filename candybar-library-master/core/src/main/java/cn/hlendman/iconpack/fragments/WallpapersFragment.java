@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -28,15 +28,15 @@ import com.danimahardhika.android.helpers.core.DrawableHelper;
 import com.danimahardhika.android.helpers.core.ListHelper;
 import com.danimahardhika.android.helpers.core.ViewHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.WallpapersAdapter;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.helpers.JsonHelper;
-import cn.hlendman.iconpack.helpers.TapIntroHelper;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.items.Wallpaper;
+import com.dm.material.dashboard.candybar.adapters.WallpapersAdapter;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.helpers.JsonHelper;
+import com.dm.material.dashboard.candybar.helpers.TapIntroHelper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.WallpapersListener;
+import com.dm.material.dashboard.candybar.utils.listeners.WallpapersListener;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller;
 import com.rafakob.drawme.DrawMeButton;
@@ -46,6 +46,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.dm.material.dashboard.candybar.helpers.ViewHelper.setFastScrollColor;
 
 /*
  * CandyBar - Material Dashboard
@@ -115,7 +117,7 @@ public class WallpapersFragment extends Fragment {
             mRecyclerView.setPadding(padding, padding, 0, 0);
         }
 
-        cn.hlendman.iconpack.helpers.ViewHelper.setFastScrollColor(mFastScroll);
+        setFastScrollColor(mFastScroll);
         mFastScroll.attachRecyclerView(mRecyclerView);
 
         mSwipe.setOnRefreshListener(() -> {

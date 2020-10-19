@@ -1,11 +1,11 @@
-package cn.hlendman.iconpack.utils;
+package com.dm.material.dashboard.candybar.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 
 import com.danimahardhika.android.helpers.core.FileHelper;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;

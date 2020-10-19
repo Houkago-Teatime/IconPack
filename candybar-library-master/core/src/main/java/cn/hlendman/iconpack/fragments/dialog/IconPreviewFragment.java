@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments.dialog;
+package com.dm.material.dashboard.candybar.fragments.dialog;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.widget.TextView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.IconsHelper;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.helpers.IconsHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 /*

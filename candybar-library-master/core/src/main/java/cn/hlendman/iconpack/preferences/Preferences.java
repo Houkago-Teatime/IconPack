@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.preferences;
+package com.dm.material.dashboard.candybar.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,9 +8,9 @@ import android.net.NetworkInfo;
 import android.support.annotation.NonNull;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.items.Language;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.items.Language;
 
 import java.lang.ref.WeakReference;
 import java.util.List;

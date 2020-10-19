@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments.dialog;
+package com.dm.material.dashboard.candybar.fragments.dialog;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -19,13 +19,13 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.anjlab.android.iab.v3.SkuDetails;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.InAppBillingAdapter;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.items.InAppBilling;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.InAppBillingProcessor;
+import com.dm.material.dashboard.candybar.adapters.InAppBillingAdapter;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.items.InAppBilling;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.InAppBillingProcessor;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.InAppBillingListener;
+import com.dm.material.dashboard.candybar.utils.listeners.InAppBillingListener;
 
 /*
  * CandyBar - Material Dashboard

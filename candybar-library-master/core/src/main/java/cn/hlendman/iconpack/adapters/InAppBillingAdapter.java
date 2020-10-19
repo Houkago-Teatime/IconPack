@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.items.InAppBilling;
+import com.dm.material.dashboard.candybar.items.InAppBilling;
 
 /*
  * CandyBar - Material Dashboard

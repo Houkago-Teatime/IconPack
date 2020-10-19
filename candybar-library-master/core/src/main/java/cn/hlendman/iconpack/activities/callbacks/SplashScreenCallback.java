@@ -1,8 +1,8 @@
-package cn.hlendman.iconpack.activities.callbacks;
+package com.dm.material.dashboard.candybar.activities.callbacks;
 
 import android.support.annotation.NonNull;
 
-import cn.hlendman.iconpack.activities.configurations.SplashScreenConfiguration;
+import com.dm.material.dashboard.candybar.activities.configurations.SplashScreenConfiguration;
 
 /*
  * CandyBar - Material Dashboard

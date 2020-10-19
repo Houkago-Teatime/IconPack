@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.tasks;
+package com.dm.material.dashboard.candybar.tasks;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -10,14 +10,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.helpers.IconsHelper;
-import cn.hlendman.iconpack.items.Home;
-import cn.hlendman.iconpack.items.Icon;
-import cn.hlendman.iconpack.utils.AlphanumComparator;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.helpers.IconsHelper;
+import com.dm.material.dashboard.candybar.items.Home;
+import com.dm.material.dashboard.candybar.items.Icon;
+import com.dm.material.dashboard.candybar.utils.AlphanumComparator;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.HomeListener;
+import com.dm.material.dashboard.candybar.utils.listeners.HomeListener;
 
 import java.lang.ref.WeakReference;
 import java.util.Collections;

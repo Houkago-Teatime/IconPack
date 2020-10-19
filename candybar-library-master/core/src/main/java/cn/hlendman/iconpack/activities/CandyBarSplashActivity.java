@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.activities;
+package com.dm.material.dashboard.candybar.activities;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,13 +15,13 @@ import android.widget.TextView;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.callbacks.SplashScreenCallback;
-import cn.hlendman.iconpack.activities.configurations.SplashScreenConfiguration;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.helpers.JsonHelper;
-import cn.hlendman.iconpack.helpers.WallpaperHelper;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.activities.callbacks.SplashScreenCallback;
+import com.dm.material.dashboard.candybar.activities.configurations.SplashScreenConfiguration;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.helpers.JsonHelper;
+import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.nostra13.universalimageloader.core.ImageLoader;
 

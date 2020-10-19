@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -20,17 +20,17 @@ import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.danimahardhika.android.helpers.core.DrawableHelper;
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.fragments.SettingsFragment;
-import cn.hlendman.iconpack.fragments.dialog.ChangelogFragment;
-import cn.hlendman.iconpack.fragments.dialog.LanguagesFragment;
-import cn.hlendman.iconpack.helpers.ReportBugsHelper;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.items.Setting;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.fragments.SettingsFragment;
+import com.dm.material.dashboard.candybar.fragments.dialog.ChangelogFragment;
+import com.dm.material.dashboard.candybar.fragments.dialog.LanguagesFragment;
+import com.dm.material.dashboard.candybar.helpers.ReportBugsHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.items.Setting;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.InAppBillingListener;
+import com.dm.material.dashboard.candybar.utils.listeners.InAppBillingListener;
 
 import java.io.File;
 import java.text.DecimalFormat;

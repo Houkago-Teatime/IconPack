@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -13,13 +13,15 @@ import android.view.ViewGroup;
 
 import com.danimahardhika.android.helpers.core.ViewHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.adapters.IconsAdapter;
-import cn.hlendman.iconpack.items.Icon;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.adapters.IconsAdapter;
+import com.dm.material.dashboard.candybar.items.Icon;
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.dm.material.dashboard.candybar.helpers.ViewHelper.setFastScrollColor;
 
 /*
  * CandyBar - Material Dashboard
@@ -83,7 +85,7 @@ public class IconsFragment extends Fragment {
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(),
                 getActivity().getResources().getInteger(R.integer.icons_column_count)));
-        cn.hlendman.iconpack.helpers.ViewHelper.setFastScrollColor(mFastScroll);
+        setFastScrollColor(mFastScroll);
         mFastScroll.attachRecyclerView(mRecyclerView);
 
         IconsAdapter adapter = new IconsAdapter(getActivity(), mIcons, false);

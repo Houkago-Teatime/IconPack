@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.items;
+package com.dm.material.dashboard.candybar.items;
 
 import android.graphics.Point;
 import android.support.annotation.DrawableRes;

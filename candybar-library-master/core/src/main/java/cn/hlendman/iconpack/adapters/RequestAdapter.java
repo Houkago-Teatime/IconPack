@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -23,12 +23,12 @@ import android.widget.TextView;
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.danimahardhika.android.helpers.core.DrawableHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.RequestListener;
+import com.dm.material.dashboard.candybar.utils.listeners.RequestListener;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageSize;

@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -19,13 +19,13 @@ import android.widget.Toast;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.fragments.dialog.IntentChooserFragment;
-import cn.hlendman.iconpack.helpers.DrawableHelper;
-import cn.hlendman.iconpack.items.IntentChooser;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.tasks.IconRequestBuilderTask;
-import cn.hlendman.iconpack.tasks.PremiumRequestBuilderTask;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.fragments.dialog.IntentChooserFragment;
+import com.dm.material.dashboard.candybar.helpers.DrawableHelper;
+import com.dm.material.dashboard.candybar.items.IntentChooser;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.tasks.IconRequestBuilderTask;
+import com.dm.material.dashboard.candybar.tasks.PremiumRequestBuilderTask;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.util.List;

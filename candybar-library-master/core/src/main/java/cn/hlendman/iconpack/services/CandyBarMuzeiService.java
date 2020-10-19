@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.services;
+package com.dm.material.dashboard.candybar.services;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,12 +7,12 @@ import android.support.annotation.Nullable;
 import android.webkit.URLUtil;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.databases.Database;
+import com.dm.material.dashboard.candybar.databases.Database;
 import com.google.android.apps.muzei.api.Artwork;
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
-import cn.hlendman.iconpack.helpers.MuzeiHelper;
-import cn.hlendman.iconpack.items.Wallpaper;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.helpers.MuzeiHelper;
+import com.dm.material.dashboard.candybar.items.Wallpaper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 
 /*
  * CandyBar - Material Dashboard

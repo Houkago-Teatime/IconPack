@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.animation.AnimatorListenerAdapter;
 import android.os.AsyncTask;
@@ -24,15 +24,15 @@ import android.widget.Toast;
 
 import com.danimahardhika.android.helpers.animation.AnimationHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.helpers.IconsHelper;
-import cn.hlendman.iconpack.helpers.TapIntroHelper;
-import cn.hlendman.iconpack.items.Icon;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.AlphanumComparator;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.helpers.IconsHelper;
+import com.dm.material.dashboard.candybar.helpers.TapIntroHelper;
+import com.dm.material.dashboard.candybar.items.Icon;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.AlphanumComparator;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.SearchListener;
+import com.dm.material.dashboard.candybar.utils.listeners.SearchListener;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.Collections;

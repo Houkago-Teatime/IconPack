@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,7 +8,7 @@ import android.util.Patterns;
 import android.webkit.URLUtil;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
 
 import static com.danimahardhika.android.helpers.core.DrawableHelper.getTintedDrawable;
 

@@ -1,11 +1,11 @@
-package cn.hlendman.iconpack.services;
+package com.dm.material.dashboard.candybar.services;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import cn.hlendman.iconpack.databases.Database;
+import com.dm.material.dashboard.candybar.databases.Database;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 /*

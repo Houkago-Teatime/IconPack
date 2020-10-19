@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.activities.callbacks;
+package com.dm.material.dashboard.candybar.activities.callbacks;
 
 import android.support.annotation.NonNull;
 

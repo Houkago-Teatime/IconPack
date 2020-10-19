@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -12,7 +12,7 @@ import android.view.View;
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.danimahardhika.android.helpers.core.WindowHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.items.Home;
+import com.dm.material.dashboard.candybar.items.Home;
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller;
 
 import java.util.Locale;

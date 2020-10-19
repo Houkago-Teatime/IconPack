@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.activities.configurations;
+package com.dm.material.dashboard.candybar.activities.configurations;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -6,7 +6,7 @@ import android.support.annotation.ColorInt;
 import android.support.annotation.IntDef;
 import android.support.annotation.NonNull;
 
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

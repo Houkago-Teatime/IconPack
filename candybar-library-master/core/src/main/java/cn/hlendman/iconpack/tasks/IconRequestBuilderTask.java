@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.tasks;
+package com.dm.material.dashboard.candybar.tasks;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -12,17 +12,17 @@ import android.util.Log;
 
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.fragments.RequestFragment;
-import cn.hlendman.iconpack.fragments.dialog.IntentChooserFragment;
-import cn.hlendman.iconpack.helpers.DeviceHelper;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.fragments.RequestFragment;
+import com.dm.material.dashboard.candybar.fragments.dialog.IntentChooserFragment;
+import com.dm.material.dashboard.candybar.helpers.DeviceHelper;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.Extras;
-import cn.hlendman.iconpack.utils.listeners.RequestListener;
+import com.dm.material.dashboard.candybar.utils.Extras;
+import com.dm.material.dashboard.candybar.utils.listeners.RequestListener;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

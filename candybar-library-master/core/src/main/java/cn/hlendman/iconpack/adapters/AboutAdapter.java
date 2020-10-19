@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -27,12 +27,12 @@ import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.danimahardhika.android.helpers.core.DrawableHelper;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.fragments.dialog.CreditsFragment;
-import cn.hlendman.iconpack.fragments.dialog.LicensesFragment;
-import cn.hlendman.iconpack.helpers.ConfigurationHelper;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.ImageConfig;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.fragments.dialog.CreditsFragment;
+import com.dm.material.dashboard.candybar.fragments.dialog.LicensesFragment;
+import com.dm.material.dashboard.candybar.helpers.ConfigurationHelper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.ImageConfig;
 import com.mikhaellopez.circularimageview.CircularImageView;
 import com.nostra13.universalimageloader.core.ImageLoader;
 

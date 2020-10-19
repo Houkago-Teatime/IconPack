@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.items;
+package com.dm.material.dashboard.candybar.items;
 
 import com.nostra13.universalimageloader.core.assist.ImageSize;
 

@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.content.pm.ActivityInfo;
@@ -17,8 +17,8 @@ import android.view.View;
 
 import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.HomeAdapter;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.adapters.HomeAdapter;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 import com.getkeepsafe.taptargetview.TapTarget;
 import com.getkeepsafe.taptargetview.TapTargetSequence;

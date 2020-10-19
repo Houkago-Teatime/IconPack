@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.adapters;
+package com.dm.material.dashboard.candybar.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,8 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.fragments.dialog.LanguagesFragment;
-import cn.hlendman.iconpack.items.Language;
+import com.dm.material.dashboard.candybar.fragments.dialog.LanguagesFragment;
+import com.dm.material.dashboard.candybar.items.Language;
 
 import java.util.List;
 

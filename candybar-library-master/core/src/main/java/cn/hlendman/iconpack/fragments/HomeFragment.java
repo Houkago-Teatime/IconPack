@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments;
+package com.dm.material.dashboard.candybar.fragments;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -12,14 +12,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.adapters.HomeAdapter;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.helpers.TapIntroHelper;
-import cn.hlendman.iconpack.helpers.WallpaperHelper;
-import cn.hlendman.iconpack.items.Home;
-import cn.hlendman.iconpack.preferences.Preferences;
-import cn.hlendman.iconpack.utils.listeners.HomeListener;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.adapters.HomeAdapter;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.helpers.TapIntroHelper;
+import com.dm.material.dashboard.candybar.helpers.WallpaperHelper;
+import com.dm.material.dashboard.candybar.items.Home;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
+import com.dm.material.dashboard.candybar.utils.listeners.HomeListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +42,7 @@ import java.util.List;
  * limitations under the License.
  */
 
-public class HomeFragment extends Fragment implements HomeListener {
+public class HomeFragment extends Fragment implements HomeListener{
 
     private RecyclerView mRecyclerView;
     private StaggeredGridLayoutManager mManager;

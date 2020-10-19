@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.tasks;
+package com.dm.material.dashboard.candybar.tasks;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +12,11 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.helpers.DeviceHelper;
-import cn.hlendman.iconpack.helpers.ReportBugsHelper;
-import cn.hlendman.iconpack.helpers.RequestHelper;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.helpers.DeviceHelper;
+import com.dm.material.dashboard.candybar.helpers.ReportBugsHelper;
+import com.dm.material.dashboard.candybar.helpers.RequestHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.io.File;

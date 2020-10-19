@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments.dialog;
+package com.dm.material.dashboard.candybar.fragments.dialog;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -14,11 +14,11 @@ import android.widget.ListView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.LanguagesAdapter;
-import cn.hlendman.iconpack.helpers.LocaleHelper;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.items.Language;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.adapters.LanguagesAdapter;
+import com.dm.material.dashboard.candybar.helpers.LocaleHelper;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.items.Language;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.util.List;

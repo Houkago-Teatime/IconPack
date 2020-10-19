@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,13 +12,13 @@ import android.util.Log;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.danimahardhika.android.helpers.core.TimeHelper;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.activities.CandyBarMainActivity;
-import cn.hlendman.iconpack.applications.CandyBarApplication;
-import cn.hlendman.iconpack.databases.Database;
-import cn.hlendman.iconpack.items.Request;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.activities.CandyBarMainActivity;
+import com.dm.material.dashboard.candybar.applications.CandyBarApplication;
+import com.dm.material.dashboard.candybar.databases.Database;
+import com.dm.material.dashboard.candybar.items.Request;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import cn.hlendman.iconpack.utils.listeners.RequestListener;
+import com.dm.material.dashboard.candybar.utils.listeners.RequestListener;
 
 import org.xmlpull.v1.XmlPullParser;
 

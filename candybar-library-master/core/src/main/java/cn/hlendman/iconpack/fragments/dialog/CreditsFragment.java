@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.fragments.dialog;
+package com.dm.material.dashboard.candybar.fragments.dialog;
 
 import android.app.Dialog;
 import android.os.AsyncTask;
@@ -14,9 +14,9 @@ import android.widget.ListView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.adapters.CreditsAdapter;
-import cn.hlendman.iconpack.helpers.TypefaceHelper;
-import cn.hlendman.iconpack.items.Credit;
+import com.dm.material.dashboard.candybar.adapters.CreditsAdapter;
+import com.dm.material.dashboard.candybar.helpers.TypefaceHelper;
+import com.dm.material.dashboard.candybar.items.Credit;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import org.xmlpull.v1.XmlPullParser;

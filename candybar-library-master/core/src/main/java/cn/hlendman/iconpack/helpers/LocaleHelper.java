@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -12,8 +12,8 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.items.Language;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.items.Language;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
 
 import java.util.ArrayList;

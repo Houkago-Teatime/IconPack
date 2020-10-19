@@ -1,4 +1,4 @@
-package cn.hlendman.iconpack.helpers;
+package com.dm.material.dashboard.candybar.helpers;
 
 import android.content.Context;
 import android.support.design.internal.NavigationMenuView;
@@ -6,7 +6,7 @@ import android.support.design.widget.NavigationView;
 import android.view.MenuItem;
 
 import com.dm.material.dashboard.candybar.R;
-import cn.hlendman.iconpack.preferences.Preferences;
+import com.dm.material.dashboard.candybar.preferences.Preferences;
 
 /*
  * CandyBar - Material Dashboard
